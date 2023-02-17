@@ -1,0 +1,35 @@
+table {
+  text-align: center;
+  font-size: 15px;
+  border-collapse: collapse;
+  height: 500px;
+  line-height: 25px;
+}
+
+thead {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f1f2f3;
+  border-top: 3px solid black;
+  height: 30px;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+td {
+  max-width: 500px;
+  padding: 10px;
+}
+
+tbody td:nth-child(4) {
+  text-align: left;
+  font-size: 12px;
+}
+
+table img {
+  height: 200px;
+  width: 150px;
+}
